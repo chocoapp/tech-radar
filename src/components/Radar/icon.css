@@ -1,0 +1,53 @@
+.icon {
+  border-radius: 24px;
+  width: 26px;
+  height: 26px;
+  background-color: white;
+  padding: 6px;
+  left: -6px;
+  top: -6px;
+  position: absolute;
+}
+
+.icon.emoji {
+  font-size: 22px;
+  text-align: center;
+}
+
+.icon.image div {
+  /* margin: 6px; */
+  background-color: white;
+  width: 26px;
+  height: 26px;
+  background-size: contain;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-clip: revert;
+  border-radius: 24px;
+}
+
+.blip.adopt .icon {
+  border: 1px solid var(--honeyDew);
+  box-shadow: 0 0 6px var(--honeyDew);
+}
+
+.blip.trial .icon {
+  border: 1px solid var(--banana);
+  box-shadow: 0 0 6px var(--banana);
+}
+
+.blip.assess .icon {
+  border: 1px solid var(--gray500);
+  box-shadow: 0 0 6px var(--gray500);
+}
+
+.blip.hold .icon {
+  border: 1px solid var(--plum);
+  box-shadow: 0 0 6px var(--plum);
+}
+
+.blip .icon.in {
+  border: none;
+  box-shadow: none;
+  position: relative;
+}

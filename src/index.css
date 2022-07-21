@@ -1,0 +1,19 @@
+:root {
+  --height: 810px;
+  --font: Manrope, -apple-system, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+
+  --banana: #ffdc48;
+  --gray500: #999999;
+  --honeyDew: #34c380;
+  --plum: #ff5a46;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+

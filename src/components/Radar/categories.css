@@ -1,0 +1,44 @@
+ul {
+  columns: 2;
+  font-size: 12px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  cursor: pointer;
+  background: white;
+  color: black;
+}
+
+li.selected {
+  background: black;
+  color: white;
+}
+
+.category {
+  z-index: 1;
+  width: 260px;
+  position: absolute;
+}
+
+.category.platforms {
+  top: 40px;
+  left: 40px;
+}
+
+.category.techniques {
+  top: 40px;
+  right: 40px;
+}
+
+.category.languages-frameworks {
+  top: calc(var(--height) / 2 + 40px);
+  left: 40px;
+}
+
+.category.tools {
+  top: calc(var(--height) / 2 + 40px);
+  right: 40px;
+}

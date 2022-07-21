@@ -1,0 +1,19 @@
+h1 {
+  text-align: center;
+}
+
+h1 img {
+  width: 90px;
+}
+
+h1 hr {
+  width: 20px;
+  border: 0;
+  border-top: 1px solid #dde;
+  margin-top: 25px;
+}
+h1 sub {
+  color: #77a;
+  font-size: 0.7em;
+  display: block;
+}
