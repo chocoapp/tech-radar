@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tech-radar/static/css/main.8307ca33.css",
+    "main.js": "/tech-radar/static/js/main.d73599ca.js",
+    "index.html": "/tech-radar/index.html",
+    "main.8307ca33.css.map": "/tech-radar/static/css/main.8307ca33.css.map",
+    "main.d73599ca.js.map": "/tech-radar/static/js/main.d73599ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8307ca33.css",
+    "static/js/main.d73599ca.js"
+  ]
+}
