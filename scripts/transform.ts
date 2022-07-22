@@ -27,7 +27,7 @@ const quadrantMap: Record<Notion.Category, CategoryId> = {
 
 const ringMap: Record<Notion.Status, StatusId> = {
   "🚫 Hold": "hold",
-  // TBD
+  // TBD consider what to do with Review
   Review: "hold",
   Assess: "assess",
   "🚧 Trial": "trial",

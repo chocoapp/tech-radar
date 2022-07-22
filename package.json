@@ -1,7 +1,8 @@
 {
-  "name": "tech-radar-react",
+  "name": "tech-radar",
   "version": "2022.07",
   "license": "Apache-2.0",
+  "homepage": "https://chocoapp.github.io/tech-radar",
   "devDependencies": {
     "@notionhq/client": "^2.0.0",
     "@types/d3": "^7.4.0",
@@ -25,6 +26,7 @@
     "@testing-library/react": "^13.3.0",
     "@testing-library/user-event": "^13.5.0",
     "d3": "^7.6.1",
+    "gh-pages": "^4.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
@@ -36,7 +38,9 @@
     "clean": "rm -rf results && mkdir results",
     "update": "yarn ts-node scripts/update.ts",
     "transform": "yarn ts-node scripts/transform.ts",
-    "repolint": "repolinter lint ."
+    "repolint": "repolinter lint .",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

@@ -89,8 +89,8 @@ async function getIcon(item: any) {
 
       const iconName = `icon-${item.id}${ext}`;
 
-      if (!fs.existsSync(`./public/${iconName}`)) {
-        download(icon, `./public/${iconName}`);
+      if (!fs.existsSync(`./public/images/${iconName}`)) {
+        download(icon, `./public/images/${iconName}`);
       }
 
       return [type, `/${iconName}`];
