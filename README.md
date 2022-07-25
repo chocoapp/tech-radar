@@ -1,6 +1,6 @@
-# Choco Tech Radar
+# Choco Tech Radar 📡
 
-![Tech Radar](docs/radar.png)
+<img src="docs/radar.png" width="300" />
 
 Choco's take on the [Tech Radar](https://www.thoughtworks.com/radar). 
 
@@ -13,7 +13,7 @@ yarn
 yarn start
 ```
 
-## Updating
+## Updating & deploying
 
 We use our internal Notion Tech Radar as the source of truth for the content. The `update` script will download the content from Notion and format it for the radar. To update this repo run:
 
@@ -21,7 +21,13 @@ We use our internal Notion Tech Radar as the source of truth for the content. Th
 NOTION_TOKEN=secret_d1a6... yarn update
 ```
 
-## Choco open source
+Then push & deploy with:
+
+```sh
+yarn deploy
+```
+
+## Choco open source 
 
 <div style="background: rgba(0, 0, 50, 0.1)">
 
