@@ -26,17 +26,17 @@
   border-radius: 24px;
 }
 
-.blip.adopt .icon {
+.blip.use .icon {
   border: 1px solid var(--honeyDew);
   box-shadow: 0 0 6px var(--honeyDew);
 }
 
-.blip.trial .icon {
+.blip.try .icon {
   border: 1px solid var(--banana);
   box-shadow: 0 0 6px var(--banana);
 }
 
-.blip.assess .icon {
+.blip.reconsider .icon {
   border: 1px solid var(--gray500);
   box-shadow: 0 0 6px var(--gray500);
 }

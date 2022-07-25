@@ -1,6 +1,6 @@
 import { Blip } from "../../Blip";
 import { blips } from "../../blips";
-import { Category, CategoryId } from "../../types";
+import { Category } from "../../types";
 
 import "./categories.css";
 
@@ -9,14 +9,18 @@ export function Categories({
   setSelected,
 }: {
   selected?: string;
+  // TODO Lazy
   setSelected: Function;
 }) {
   return (
     <>
-      {Object.entries(categories).map(([typeId, entries]) => {
+      {Object.entries(categoryEntries).map(([category, entries]) => {
         return (
-          <div key={typeId} className={`category ${typeId}`}>
-            <h3>{Category[typeId as CategoryId]}</h3>
+          <div
+            key={category}
+            className={`category ${getCategoryId(category as Category)}`}
+          >
+            <h3>{category}</h3>
 
             <ul>
               {entries.map((entry) => {
@@ -38,14 +42,24 @@ export function Categories({
   );
 }
 
-const byCategory = (category: CategoryId) =>
+function getCategoryId(category: Category): string {
+  const categoryMap = {
+    Tools: "tools",
+    "Languages & Frameworks": "languages-frameworks",
+    Techniques: "techniques",
+    Platforms: "platforms",
+  };
+
+  return categoryMap[category];
+}
+const byCategory = (category: Category): Blip[] =>
   blips.filter((entry: Blip) => entry.category === category);
 
-const categories: {
-  [K in keyof typeof Category]: Blip[];
+const categoryEntries: {
+  [K in Category]: Blip[];
 } = {
-  tools: byCategory("tools"),
-  "languages-frameworks": byCategory("languages-frameworks"),
-  techniques: byCategory("techniques"),
-  platforms: byCategory("platforms"),
+  Tools: byCategory("Tools"),
+  "Languages & Frameworks": byCategory("Languages & Frameworks"),
+  Techniques: byCategory("Techniques"),
+  Platforms: byCategory("Platforms"),
 };

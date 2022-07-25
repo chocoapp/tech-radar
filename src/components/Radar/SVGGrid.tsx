@@ -1,4 +1,4 @@
-import { Status } from "../../types";
+import { status } from "../../types";
 import { rings } from "../../constants";
 
 const height = 810;
@@ -30,9 +30,9 @@ export function SVGGrid() {
           strokeWidth={2}
         ></line>
 
-        {Object.entries(Status).map(([key, status], i) => {
+        {status.map((status, i) => {
           return (
-            <g key={key}>
+            <g key={status}>
               <circle
                 cx={0}
                 cy={0}

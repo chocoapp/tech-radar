@@ -1,4 +1,4 @@
-import { Entry, Category, Status } from "./types";
+import { Entry, Category, status, categories } from "./types";
 import { rings } from "./constants";
 import {
   Polar,
@@ -20,8 +20,8 @@ export class Blip {
   y: number = 0;
 
   constructor(public entry: Entry) {
-    const quadrant = Object.keys(Category).indexOf(entry.category);
-    const ring = Object.keys(Status).indexOf(entry.status);
+    const quadrant = categories.indexOf(entry.category);
+    const ring = status.indexOf(entry.status);
 
     this.polarMin = {
       t: quadrants[quadrant].radialMin * Math.PI,
@@ -98,16 +98,8 @@ export class Blip {
     return this.entry.status;
   }
 
-  get statusLabel(): Status {
-    return Status[this.status];
-  }
-
   get category(): Entry["category"] {
     return this.entry.category;
-  }
-
-  get categoryLabel(): Category {
-    return Category[this.category];
   }
 }
 

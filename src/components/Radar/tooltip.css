@@ -1,14 +1,14 @@
-.blip.adopt .tooltip {
+.blip.use .tooltip {
   border: 1px solid var(--honeyDew);
   box-shadow: 0 0 6px var(--honeyDew);
 }
 
-.blip.trial .tooltip {
+.blip.try .tooltip {
   border: 1px solid var(--banana);
   box-shadow: 0 0 6px var(--banana);
 }
 
-.blip.assess .tooltip {
+.blip.reconsider .tooltip {
   border: 1px solid var(--gray500);
   box-shadow: 0 0 6px var(--gray500);
 }
@@ -35,15 +35,15 @@
   left: 10px;
 }
 
-.blip.adopt .tooltip-status {
+.blip.use .tooltip-status {
   background-color: var(--honeyDew);
 }
 
-.blip.trial .tooltip-status {
+.blip.try .tooltip-status {
   background-color: var(--banana);
 }
 
-.blip.assess .tooltip-status {
+.blip.reconsider .tooltip-status {
   background-color: var(--gray500);
 }
 

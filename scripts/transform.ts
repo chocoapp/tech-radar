@@ -1,38 +1,7 @@
 import * as fs from "fs";
 import { read } from "./config";
 import * as r from "ramda";
-import { CategoryId, Entry, StatusId } from "../src/types";
-
-namespace Notion {
-  export type Category =
-    | "Tools"
-    | "Languages & Frameworks"
-    | "Platforms"
-    | "Techniques";
-
-  export type Status =
-    | "🚫 Hold"
-    | "Review"
-    | "Assess"
-    | "🚧 Trial"
-    | "✅ Adopt";
-}
-
-const quadrantMap: Record<Notion.Category, CategoryId> = {
-  Tools: "tools",
-  "Languages & Frameworks": "languages-frameworks",
-  Platforms: "platforms",
-  Techniques: "techniques",
-};
-
-const ringMap: Record<Notion.Status, StatusId> = {
-  "🚫 Hold": "hold",
-  // TBD consider what to do with Review
-  Review: "hold",
-  Assess: "assess",
-  "🚧 Trial": "trial",
-  "✅ Adopt": "adopt",
-};
+import { Entry } from "../src/types";
 
 export async function transform() {
   const data = read("items.json");
@@ -42,16 +11,12 @@ export async function transform() {
   for (let item of data.results) {
     const itemData = read(`item-${item.id}.json`);
 
-    const status = itemData.Status.select.name;
-    const category = itemData.Type.select?.name || "unknown";
     const label = itemData.Name.results[0].title.plain_text;
 
     const result = {
       originId: itemData.id,
-      // @ts-ignore
-      category: quadrantMap[category],
-      // @ts-ignore
-      status: ringMap[status],
+      category: itemData.Type.select?.name,
+      status: itemData.Status.select.name,
       label,
       icon: itemData.icon,
       id: 0,
@@ -61,15 +26,12 @@ export async function transform() {
   }
 
   const sortedResults = r.sortWith([
-    // @ts-ignore
     r.ascend(r.path(["status"])),
-    // @ts-ignore
     r.ascend(r.path(["label"])),
   ]);
 
   let id = 1;
 
-  // @ts-ignore
   const sortedRs = sortedResults(results);
 
   for (let item of sortedRs) {

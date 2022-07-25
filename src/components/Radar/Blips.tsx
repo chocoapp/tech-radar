@@ -5,6 +5,7 @@ import { Blip } from "../../Blip";
 import { blips } from "../../blips";
 import { Tooltip } from "./Tooltip";
 import { Icon } from "./Icon";
+import { Status } from "../../types";
 
 import "./blips.css";
 
@@ -17,7 +18,7 @@ export function Blips({ selected, setSelected }: Props) {
         return (
           <div
             key={blip.label}
-            className={`blip ${blip.status} ${
+            className={`blip ${getStatusId(blip.status)} ${
               selected === blip.originId ? "selected" : ""
             }`}
             onMouseOver={() => setSelected(blip.originId)}
@@ -58,6 +59,17 @@ function useAnimatedBlips() {
   }, []);
 
   return animatedNodes;
+}
+
+function getStatusId(status: Status): string {
+  const statusMap = {
+    "🚫 Hold": "hold",
+    "🚧 Try": "try",
+    "🤔 Reconsider": "reconsider",
+    "✅ Use": "use",
+  };
+
+  return statusMap[status];
 }
 
 type Props = {

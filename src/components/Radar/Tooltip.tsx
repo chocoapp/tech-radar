@@ -12,10 +12,10 @@ export function Tooltip({ blip }: { blip: Blip }) {
       </div>
 
       <div className={`tooltip-statusWrapper`}>
-        <span className={`tooltip-status`}>{blip.statusLabel}</span>
+        <span className={`tooltip-status`}>{blip.status}</span>
       </div>
 
-      <div className={`tooltip-category`}>{blip.categoryLabel}</div>
+      <div className={`tooltip-category`}>{blip.category}</div>
     </div>
   );
 }
