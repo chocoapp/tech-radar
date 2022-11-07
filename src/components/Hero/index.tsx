@@ -6,7 +6,7 @@ export function Hero() {
       <img src="https://choco.com/img/logo.svg" alt="Choco Logo" />
       <hr />
       Tech Radar
-      <sub>July 2022</sub>
+      <sub>November 2022</sub>
     </h1>
   );
 }
