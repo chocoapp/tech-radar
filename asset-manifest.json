@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/tech-radar/static/css/main.eaa07c29.css",
-    "main.js": "/tech-radar/static/js/main.3c03e173.js",
+    "main.js": "/tech-radar/static/js/main.2f47b114.js",
     "index.html": "/tech-radar/index.html",
     "main.eaa07c29.css.map": "/tech-radar/static/css/main.eaa07c29.css.map",
-    "main.3c03e173.js.map": "/tech-radar/static/js/main.3c03e173.js.map"
+    "main.2f47b114.js.map": "/tech-radar/static/js/main.2f47b114.js.map"
   },
   "entrypoints": [
     "static/css/main.eaa07c29.css",
-    "static/js/main.3c03e173.js"
+    "static/js/main.2f47b114.js"
   ]
 }
