@@ -10,15 +10,16 @@ export function Content() {
       <p>
         <b>Use</b>
         <br />
-        Technologies used in production, with shared knowledge and that serve
-        well a certain purpose at Choco. This doesn't mean the technology should
-        be used for any use case and in any way: everything has tradeoffs.
+        Technologies used in production that serve well a certain purpose at
+        Choco. We invest in understanding and mastering this tech. This doesn't
+        mean the technology should be used for any use case and in any way:
+        everything has tradeoffs.
       </p>
 
       <p>
         <b>Try</b>
         <br />
-        Technologies we believe can become "adopt" and are currently being
+        Technologies we believe can become "use" and are currently being
         researched, prototyped or tried in production by a team. We keep tech in
         trial until we understand its tradeoffs.
       </p>
