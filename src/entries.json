@@ -110,6 +110,17 @@
     "id": 10
   },
   {
+    "originId": "c7b96e3f-fa82-4ffa-81c6-47e69bbd29b3",
+    "category": "Languages & Frameworks",
+    "status": "✅ Use",
+    "label": "Flutter",
+    "icon": [
+      "url",
+      "/icon-c7b96e3f-fa82-4ffa-81c6-47e69bbd29b3.svg"
+    ],
+    "id": 11
+  },
+  {
     "originId": "5952c86f-29d1-443c-afc7-043ed6f57075",
     "category": "Techniques",
     "status": "✅ Use",
@@ -118,7 +129,7 @@
       "url",
       "/icon-5952c86f-29d1-443c-afc7-043ed6f57075.png"
     ],
-    "id": 11
+    "id": 12
   },
   {
     "originId": "4f8bd22b-8681-4adb-b66d-e2b65d1553e9",
@@ -129,7 +140,7 @@
       "emoji",
       "📊"
     ],
-    "id": 12
+    "id": 13
   },
   {
     "originId": "80cf8649-5187-4be9-9943-388f87ee4e2a",
@@ -140,7 +151,29 @@
       "url",
       "/icon-80cf8649-5187-4be9-9943-388f87ee4e2a.png"
     ],
-    "id": 13
+    "id": 14
+  },
+  {
+    "originId": "b2816c15-e2f7-4019-b94b-ed2a7dd8e375",
+    "category": "Languages & Frameworks",
+    "status": "✅ Use",
+    "label": "Jetpack Compose",
+    "icon": [
+      "url",
+      "/icon-b2816c15-e2f7-4019-b94b-ed2a7dd8e375.png"
+    ],
+    "id": 15
+  },
+  {
+    "originId": "09c760ef-2d12-4f16-9170-06d32dcd3eac",
+    "category": "Tools",
+    "status": "✅ Use",
+    "label": "Kaspresso",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 16
   },
   {
     "originId": "4879a6b3-7b0b-4d53-bffc-d25d3b00d1fb",
@@ -151,7 +184,7 @@
       "url",
       "/icon-4879a6b3-7b0b-4d53-bffc-d25d3b00d1fb.png"
     ],
-    "id": 14
+    "id": 17
   },
   {
     "originId": "b5a263cf-b9c0-4396-8208-d8333886defb",
@@ -162,7 +195,7 @@
       "url",
       "/icon-b5a263cf-b9c0-4396-8208-d8333886defb.svg"
     ],
-    "id": 15
+    "id": 18
   },
   {
     "originId": "b9b95a41-3f18-4895-937b-002bf061923a",
@@ -173,7 +206,7 @@
       "emoji",
       "🌐"
     ],
-    "id": 16
+    "id": 19
   },
   {
     "originId": "b41df950-702d-4156-ae08-30e77c2d333e",
@@ -184,18 +217,18 @@
       "url",
       "/icon-b41df950-702d-4156-ae08-30e77c2d333e.jpg"
     ],
-    "id": 17
+    "id": 20
   },
   {
-    "originId": "d3bff305-ab7f-485f-9302-a06a8375a050",
+    "originId": "b32c43ff-f858-4d94-b15e-4aa60adfbb38",
     "category": "Tools",
     "status": "✅ Use",
-    "label": "PagerDuty",
+    "label": "Paparazzi",
     "icon": [
-      "url",
-      "/icon-d3bff305-ab7f-485f-9302-a06a8375a050.png"
+      "none",
+      null
     ],
-    "id": 18
+    "id": 21
   },
   {
     "originId": "34633681-c0a3-4ae6-a4b0-25bbe56f3213",
@@ -206,7 +239,7 @@
       "url",
       "/icon-34633681-c0a3-4ae6-a4b0-25bbe56f3213.png"
     ],
-    "id": 19
+    "id": 22
   },
   {
     "originId": "72fcfa13-1458-4120-84f9-d5acccf195f2",
@@ -217,7 +250,18 @@
       "url",
       "/icon-72fcfa13-1458-4120-84f9-d5acccf195f2.png"
     ],
-    "id": 20
+    "id": 23
+  },
+  {
+    "originId": "b2ed3677-9c3d-4dac-b522-4fba8ab4235e",
+    "category": "Tools",
+    "status": "✅ Use",
+    "label": "Renovate",
+    "icon": [
+      "url",
+      "/icon-b2ed3677-9c3d-4dac-b522-4fba8ab4235e"
+    ],
+    "id": 24
   },
   {
     "originId": "92b598c7-83b2-4899-825d-35f48ddfcf2a",
@@ -228,7 +272,7 @@
       "url",
       "/icon-92b598c7-83b2-4899-825d-35f48ddfcf2a.png"
     ],
-    "id": 21
+    "id": 25
   },
   {
     "originId": "09344b90-b0f6-4e36-a847-6f2ed21a146c",
@@ -239,7 +283,7 @@
       "url",
       "/icon-09344b90-b0f6-4e36-a847-6f2ed21a146c.png"
     ],
-    "id": 22
+    "id": 26
   },
   {
     "originId": "b4da7553-d78b-4167-afdb-dfcdcf75f12a",
@@ -250,7 +294,29 @@
       "url",
       "/icon-b4da7553-d78b-4167-afdb-dfcdcf75f12a.png"
     ],
-    "id": 23
+    "id": 27
+  },
+  {
+    "originId": "4460e199-5370-4c20-915f-680110b96346",
+    "category": "Techniques",
+    "status": "✅ Use",
+    "label": "Step Function Local Testing",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 28
+  },
+  {
+    "originId": "59db2e05-931c-45b0-bd06-56c153c97567",
+    "category": "Platforms",
+    "status": "✅ Use",
+    "label": "Step Functions",
+    "icon": [
+      "url",
+      "/icon-59db2e05-931c-45b0-bd06-56c153c97567.png"
+    ],
+    "id": 29
   },
   {
     "originId": "7451d06a-c303-4532-81fd-76d102fa572e",
@@ -261,7 +327,7 @@
       "data",
       "data:image/png;base64,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"
     ],
-    "id": 24
+    "id": 30
   },
   {
     "originId": "e9c2bfb4-9568-4eac-9873-2bff4ff88e2f",
@@ -272,7 +338,7 @@
       "data",
       "data:image/jpeg;base64,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"
     ],
-    "id": 25
+    "id": 31
   },
   {
     "originId": "8226c143-739a-4897-825f-8a1a5c1182e4",
@@ -283,7 +349,29 @@
       "emoji",
       "🎢"
     ],
-    "id": 26
+    "id": 32
+  },
+  {
+    "originId": "e5e59672-a9eb-4723-b3d3-27b99740f4e9",
+    "category": "Languages & Frameworks",
+    "status": "✅ Use",
+    "label": "TypeScript",
+    "icon": [
+      "url",
+      "/icon-e5e59672-a9eb-4723-b3d3-27b99740f4e9.png"
+    ],
+    "id": 33
+  },
+  {
+    "originId": "55386818-be1f-4fb3-a3af-8f63849be464",
+    "category": "Platforms",
+    "status": "✅ Use",
+    "label": "WAF",
+    "icon": [
+      "url",
+      "/icon-55386818-be1f-4fb3-a3af-8f63849be464.svg"
+    ],
+    "id": 34
   },
   {
     "originId": "a6ac7ca0-bcf0-419c-bc19-517918a0a4d8",
@@ -294,7 +382,7 @@
       "url",
       "/icon-a6ac7ca0-bcf0-419c-bc19-517918a0a4d8.png"
     ],
-    "id": 27
+    "id": 35
   },
   {
     "originId": "92021011-3a6b-45ed-8c7e-a112b692563d",
@@ -305,7 +393,7 @@
       "url",
       "/icon-92021011-3a6b-45ed-8c7e-a112b692563d.webp"
     ],
-    "id": 28
+    "id": 36
   },
   {
     "originId": "d55016fb-b09a-422d-9055-2e4199ce8b0d",
@@ -316,7 +404,7 @@
       "url",
       "/icon-d55016fb-b09a-422d-9055-2e4199ce8b0d.svg"
     ],
-    "id": 29
+    "id": 37
   },
   {
     "originId": "64768b1a-0bbe-4f9c-aac7-a615dd002467",
@@ -327,7 +415,7 @@
       "url",
       "/icon-64768b1a-0bbe-4f9c-aac7-a615dd002467.png"
     ],
-    "id": 30
+    "id": 38
   },
   {
     "originId": "c5e84384-bfee-4062-9c8b-3a9936d012b4",
@@ -338,18 +426,29 @@
       "url",
       "/icon-c5e84384-bfee-4062-9c8b-3a9936d012b4.png"
     ],
-    "id": 31
+    "id": 39
   },
   {
-    "originId": "0177c619-8815-4862-8650-44f2f8567b6f",
-    "category": "Techniques",
+    "originId": "acd0f4db-35bf-456c-ab09-05cbad0e44c0",
+    "category": "Tools",
     "status": "🚧 Try",
-    "label": "AppCheck",
+    "label": "Buildjet",
     "icon": [
-      "url",
-      "/icon-0177c619-8815-4862-8650-44f2f8567b6f.png"
+      "none",
+      null
     ],
-    "id": 32
+    "id": 40
+  },
+  {
+    "originId": "ca6ad607-7a72-4043-ac05-df9b8e89dc1b",
+    "category": "Tools",
+    "status": "🚧 Try",
+    "label": "Burpsuite community edition",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 41
   },
   {
     "originId": "b089fd26-3671-4526-b941-2b25f0ec9099",
@@ -360,7 +459,29 @@
       "url",
       "/icon-b089fd26-3671-4526-b941-2b25f0ec9099.jpeg"
     ],
-    "id": 33
+    "id": 42
+  },
+  {
+    "originId": "6ced348c-4eee-4133-b06b-7e16c38cbaa6",
+    "category": "Techniques",
+    "status": "🚧 Try",
+    "label": "Contract Testing",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 43
+  },
+  {
+    "originId": "9751ac6d-d5bf-44b6-8ecd-962aebb0c424",
+    "category": "Tools",
+    "status": "🚧 Try",
+    "label": "Cypress Component Testing",
+    "icon": [
+      "emoji",
+      "🌲"
+    ],
+    "id": 44
   },
   {
     "originId": "1d5588f9-4344-4600-af15-8a196135b0be",
@@ -371,7 +492,7 @@
       "url",
       "/icon-1d5588f9-4344-4600-af15-8a196135b0be.webp"
     ],
-    "id": 34
+    "id": 45
   },
   {
     "originId": "25259a98-c8f4-45cf-adf2-6b7f8440f761",
@@ -382,7 +503,7 @@
       "none",
       null
     ],
-    "id": 35
+    "id": 46
   },
   {
     "originId": "e8490d3e-0322-4fb2-966e-3349b575bb14",
@@ -393,7 +514,18 @@
       "url",
       "/icon-e8490d3e-0322-4fb2-966e-3349b575bb14.png"
     ],
-    "id": 36
+    "id": 47
+  },
+  {
+    "originId": "ee36f6b9-210b-40e5-916c-b796cf04bb06",
+    "category": "Tools",
+    "status": "🚧 Try",
+    "label": "GitHub CoPilot",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 48
   },
   {
     "originId": "df90671a-6a6c-4ba6-bdab-521693a15214",
@@ -404,7 +536,7 @@
       "url",
       "/icon-df90671a-6a6c-4ba6-bdab-521693a15214.png"
     ],
-    "id": 37
+    "id": 49
   },
   {
     "originId": "af07ea63-4b90-4c03-b8dc-4769341a0754",
@@ -415,18 +547,18 @@
       "url",
       "/icon-af07ea63-4b90-4c03-b8dc-4769341a0754.svg"
     ],
-    "id": 38
+    "id": 50
   },
   {
-    "originId": "b2816c15-e2f7-4019-b94b-ed2a7dd8e375",
-    "category": "Languages & Frameworks",
+    "originId": "2eb11bda-8abf-41b0-bc78-c248caa483ab",
+    "category": "Platforms",
     "status": "🚧 Try",
-    "label": "Jetpack Compose",
+    "label": "K8s",
     "icon": [
       "url",
-      "/icon-b2816c15-e2f7-4019-b94b-ed2a7dd8e375.png"
+      "/icon-2eb11bda-8abf-41b0-bc78-c248caa483ab.png"
     ],
-    "id": 39
+    "id": 51
   },
   {
     "originId": "00d7774e-cd04-4ba3-af81-750d3200a5fe",
@@ -437,7 +569,7 @@
       "url",
       "/icon-00d7774e-cd04-4ba3-af81-750d3200a5fe.png"
     ],
-    "id": 40
+    "id": 52
   },
   {
     "originId": "4e8dc759-e9d2-4a3f-9468-8a455b388f94",
@@ -448,7 +580,18 @@
       "url",
       "/icon-4e8dc759-e9d2-4a3f-9468-8a455b388f94.svg"
     ],
-    "id": 41
+    "id": 53
+  },
+  {
+    "originId": "44eeddcf-1771-4300-9e67-ade3357f2353",
+    "category": "Languages & Frameworks",
+    "status": "🚧 Try",
+    "label": "Nest.Js",
+    "icon": [
+      "url",
+      "/icon-44eeddcf-1771-4300-9e67-ade3357f2353.png"
+    ],
+    "id": 54
   },
   {
     "originId": "f429fe83-b1c8-4d4a-b43d-db11c57a23b4",
@@ -459,7 +602,29 @@
       "url",
       "/icon-f429fe83-b1c8-4d4a-b43d-db11c57a23b4.jpeg"
     ],
-    "id": 42
+    "id": 55
+  },
+  {
+    "originId": "144643a6-2f4b-4fcb-a992-1f5fc89cd583",
+    "category": "Tools",
+    "status": "🚧 Try",
+    "label": "Opsgenie",
+    "icon": [
+      "url",
+      "/icon-144643a6-2f4b-4fcb-a992-1f5fc89cd583.png"
+    ],
+    "id": 56
+  },
+  {
+    "originId": "e6c99b3c-5b87-466f-8782-f52075d2a1ed",
+    "category": "Tools",
+    "status": "🚧 Try",
+    "label": "Pact.js ",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 57
   },
   {
     "originId": "9b731d7f-aba5-4eff-9797-358d0730b2d0",
@@ -470,7 +635,18 @@
       "url",
       "/icon-9b731d7f-aba5-4eff-9797-358d0730b2d0.png"
     ],
-    "id": 43
+    "id": 58
+  },
+  {
+    "originId": "964deb20-a5e6-4ea0-bc2e-d2461c880eec",
+    "category": "Tools",
+    "status": "🚧 Try",
+    "label": "Postman",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 59
   },
   {
     "originId": "155d6d64-fbc4-4b35-a232-3c7e2c136d93",
@@ -481,18 +657,7 @@
       "url",
       "/icon-155d6d64-fbc4-4b35-a232-3c7e2c136d93.svg"
     ],
-    "id": 44
-  },
-  {
-    "originId": "59db2e05-931c-45b0-bd06-56c153c97567",
-    "category": "Platforms",
-    "status": "🚧 Try",
-    "label": "Step Functions",
-    "icon": [
-      "url",
-      "/icon-59db2e05-931c-45b0-bd06-56c153c97567.png"
-    ],
-    "id": 45
+    "id": 60
   },
   {
     "originId": "cbbd4d15-93a7-494c-9e31-4f8d0dcc8c7c",
@@ -503,29 +668,18 @@
       "data",
       "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCIgdmlld0JveD0iMCAwIDE2MCAxNjAiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjxjaXJjbGUgY3g9IjgwIiBjeT0iODAiIHI9IjgwIiBmaWxsPSJ1cmwoI3BhaW50MF9saW5lYXIpIi8+CjxwYXRoIGQ9Ik0zOS42NjY3IDExNS42MUMzOS42NjY3IDExNS42MSA1Ni41IDEyOSA4MC41IDEyOUMxMDQuNSAxMjkgMTIxLjMzMyAxMTUuNjEgMTIxLjMzMyAxMTUuNjFNMzUgOTIuODc4QzM1IDkyLjg3OCA2NC4xNjY3IDEyOCA4MC41IDEyOE04MC41IDEyOEM5Ni44MzMzIDEyOCAxMjYgOTIuODc4IDEyNiA5Mi44NzhNODAuNSAxMjhDNjQuMTY2NyAxMjggMzUgNjQuNzgwNSAzNSA2NC43ODA1TTgwLjUgMTI4Qzk2LjgzMzMgMTI4IDEyNiA2NC43ODA1IDEyNiA2NC43ODA1TTgwLjUgMTI4QzcyLjAwMDEgMTI4IDUzLjY2NjcgNDAuMTk1MSA1My42NjY3IDQwLjE5NTFNODAuNSAxMjhDODguOTk5OSAxMjggMTA3LjMzMyA0MC4xOTUxIDEwNy4zMzMgNDAuMTk1MU04MC44MzMzIDEyOEw4MC44MzMzIDMyIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjQiLz4KPGRlZnM+CjxsaW5lYXJHcmFkaWVudCBpZD0icGFpbnQwX2xpbmVhciIgeDE9IjgwIiB5MT0iMCIgeDI9IjgwIiB5Mj0iMTYwIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+CjxzdG9wIHN0b3AtY29sb3I9IiM2MjM2RkYiLz4KPHN0b3Agb2Zmc2V0PSIxIiBzdG9wLWNvbG9yPSIjMzAwMERBIi8+CjwvbGluZWFyR3JhZGllbnQ+CjwvZGVmcz4KPC9zdmc+Cg=="
     ],
-    "id": 46
+    "id": 61
   },
   {
-    "originId": "e5e59672-a9eb-4723-b3d3-27b99740f4e9",
-    "category": "Languages & Frameworks",
-    "status": "🚧 Try",
-    "label": "TypeScript",
+    "originId": "0177c619-8815-4862-8650-44f2f8567b6f",
+    "category": "Techniques",
+    "status": "🚫 Hold",
+    "label": "AppCheck",
     "icon": [
       "url",
-      "/icon-e5e59672-a9eb-4723-b3d3-27b99740f4e9.png"
+      "/icon-0177c619-8815-4862-8650-44f2f8567b6f.png"
     ],
-    "id": 47
-  },
-  {
-    "originId": "55386818-be1f-4fb3-a3af-8f63849be464",
-    "category": "Platforms",
-    "status": "🚧 Try",
-    "label": "WAF",
-    "icon": [
-      "url",
-      "/icon-55386818-be1f-4fb3-a3af-8f63849be464.svg"
-    ],
-    "id": 48
+    "id": 62
   },
   {
     "originId": "f5ee1afb-576a-4fdd-90b0-6344be2224a6",
@@ -536,7 +690,7 @@
       "url",
       "/icon-f5ee1afb-576a-4fdd-90b0-6344be2224a6.svg"
     ],
-    "id": 49
+    "id": 63
   },
   {
     "originId": "0e232578-9195-41b9-9ff9-ecbe796a298a",
@@ -547,7 +701,7 @@
       "url",
       "/icon-0e232578-9195-41b9-9ff9-ecbe796a298a.webp"
     ],
-    "id": 50
+    "id": 64
   },
   {
     "originId": "8499eb11-b5bb-4fc0-bbd0-a4d7cd978b23",
@@ -558,7 +712,18 @@
       "url",
       "/icon-8499eb11-b5bb-4fc0-bbd0-a4d7cd978b23.png"
     ],
-    "id": 51
+    "id": 65
+  },
+  {
+    "originId": "f042362a-1201-4333-8144-4e0015d79e2c",
+    "category": "Languages & Frameworks",
+    "status": "🤔 Reconsider",
+    "label": "AWS SAM",
+    "icon": [
+      "none",
+      null
+    ],
+    "id": 66
   },
   {
     "originId": "8d1c6f89-b912-45f9-ae6f-6ec526cc2130",
@@ -569,7 +734,7 @@
       "url",
       "/icon-8d1c6f89-b912-45f9-ae6f-6ec526cc2130.jpeg"
     ],
-    "id": 52
+    "id": 67
   },
   {
     "originId": "2f4791c3-2fef-4d9d-a8c6-ec1c8dedfd6c",
@@ -580,7 +745,18 @@
       "url",
       "/icon-2f4791c3-2fef-4d9d-a8c6-ec1c8dedfd6c.png"
     ],
-    "id": 53
+    "id": 68
+  },
+  {
+    "originId": "d3bff305-ab7f-485f-9302-a06a8375a050",
+    "category": "Tools",
+    "status": "🤔 Reconsider",
+    "label": "PagerDuty",
+    "icon": [
+      "url",
+      "/icon-d3bff305-ab7f-485f-9302-a06a8375a050.png"
+    ],
+    "id": 69
   },
   {
     "originId": "6802bd6e-5e31-4b99-8474-a967597a9359",
@@ -591,6 +767,6 @@
       "url",
       "/icon-6802bd6e-5e31-4b99-8474-a967597a9359.png"
     ],
-    "id": 54
+    "id": 70
   }
 ]
